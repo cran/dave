@@ -5,7 +5,7 @@
 Time scale (yr) for Soppensee pollen data
 }
 \description{
-Time scale (yr) for Soppensee pollen data. See details below. Vegetation is in data frame sveg.
+Time scale (yr) for Soppensee pollen data. See details below. Vegetation is in data frame \code{\link{pveg}}.
 }
 \usage{data(psit)}
 \format{
@@ -24,7 +24,7 @@ analyses in annually laminated sediments from Soppensee, central
 Switzerland. Vegetation History and Archaeobotany 8: 165-184.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
+Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd Edition, Wiley-Blackwell,
 Chichester.
 }
 \examples{

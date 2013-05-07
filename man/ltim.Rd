@@ -5,13 +5,13 @@
 Lippe et al. 1985 data set, yr of observation
 }
 \description{
-Lippe et al. 1985 data set, yr of observation. Vegetation data is in data frame lveg.
+Lippe et al. 1985 data set, yr of observation. Vegetation data is in data frame \code{\link{lveg}}.
 }
 \usage{data(ltim)}
 \format{
 A data frame with 19 observations on the following variable.
   \describe{
-    \item{\code{Year}}{a numeric vector}
+    \item{\code{Year}}{a numeric vector containing the year of sampling}
   }
 }
 \source{

@@ -5,7 +5,7 @@
 Time series from the Swiss National Park, 6 plots. Site data.
 }
 \description{
-Time series from the Swiss National Park, 6 plots. Site data: Plot names and yr of sampling.
+Time series from the Swiss National Park, 6 plots. Site data: Plot names and yr of sampling. Vegetation data in \code{\link{sn6veg}}.
 }
 \usage{data(sn6sit)}
 \format{
@@ -23,7 +23,7 @@ Wildi, O. & Schuetz, M. 2000. Reconstruction of a
 long-term recovery process from pasture to forest. Community Ecology 1: 25-32.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
+Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd Edition, Wiley-Blackwell,
 Chichester.
 }
 \examples{

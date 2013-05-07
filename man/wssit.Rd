@@ -5,8 +5,8 @@
 Four kilometre grid forest data of Switzerland, site information
 }
 \description{
-Four kilometre grid forest data of Switzerland, site information. Also see ws30, ws200
-and ws500 for vegetation data.
+Four kilometre grid forest data of Switzerland, site information. Also see \code{\link{ws30}}, \code{\link{ws200}}
+and \code{\link{ws500}} for vegetation data.
 }
 \usage{data(wssit)}
 \format{

@@ -5,11 +5,11 @@
 Schlaenggli site data
 }
 \description{
-Schlaenggli site data. 63 plots arranged in a square grid. Vegetation in data frame sveg.
+Schlaenggli site data. 63 plots arranged in a square grid. Vegetation in data frame \code{\link{sveg}}.
 }
 \usage{data(ssit)}
 \format{
-  A data frame with 63 observations on the following 20 variables.
+  A data frame with 63 observations on the following 20 site variables.
   \describe{
     \item{\code{pH.peat}}{a numeric vector}
     \item{\code{log.ash.perc}}{a numeric vector}

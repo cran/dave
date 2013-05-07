@@ -23,7 +23,7 @@ The use of all functions included is explained in "Data Analysis in Vegetation E
 (see reference below)
 }
 \author{
-Otto Wildi, ottowildi@wsl.ch
+Otto Wildi, otto.wildi@wsl.ch
 }
 \references{
 Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,

@@ -5,11 +5,11 @@
 Lippe et al. 1985 data set, vegetation data 
 }
 \description{
-Lippe et al. 1985 data set, vegetation data. Year of observation is in data frame ltim.
+Lippe et al. 1985 data set, vegetation data. Year of observation is in data frame \code{\link{ltim}}.
 }
 \usage{data(lveg)}
 \format{
-  A data frame with 19 observations on the following 9 variables.
+  A data frame with 19 observations on the following 9 variables, the species.
   \describe{
     \item{\code{open.soil}}{a numeric vector}
     \item{\code{Empetrum.nigrum}}{a numeric vector}

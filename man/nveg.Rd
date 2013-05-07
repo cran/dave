@@ -5,11 +5,11 @@
 European beach forest data, vegetation
 }
 \description{
-European beach forest data, vegetation. Site factors are in data frame sveg.
+European beach forest data, vegetation. Site factors are in data frame \code{\link{nsit}}.
 }
 \usage{data(nveg)}
 \format{
-  A data frame with 11 observations on the following 21 variables.
+  A data frame with 11 observations on the following 21 species, the variables (0 to 6 scale used).
   \describe{
     \item{\code{Fagus.silvatica}}{a numeric vector}
     \item{\code{Quercus.petraea}}{a numeric vector}
@@ -42,7 +42,7 @@ Wildi, O. & Orloci, L. 1996. Numerical Exploration
 of Community Patterns. 2nd ed. SPB Academic Publishing, The Hague.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
+Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd Edition, Wiley-Blackwell,
 Chichester.
 }
 \examples{

@@ -5,7 +5,7 @@
 Soppensee pollen data
 }
 \description{
-Soppensee pollen data. Vegetation only (tree species).
+Soppensee pollen data. Vegetation only (tree species). The age (year B.P) is in \code{\link{psit}}.
 }
 \usage{data(pveg)}
 \format{

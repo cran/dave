@@ -5,11 +5,11 @@
 Time series from the Swiss National Park, 6 plots. Vegetation data.
 }
 \description{
-Time series from the Swiss National Park, 6 plots. Vegetation data.
+Time series from the Swiss National Park, 6 plots. Vegetation data. Plot names are in \code{\link{sn6sit}}.
 }
 \usage{data(sn6veg)}
 \format{
-  A data frame with 81 observations on the following 6 variables.
+  A data frame with 81 observations on the following 6 variables (species guilds), cover percentage.
   \describe{
     \item{\code{Aconitum}}{a numeric vector}
     \item{\code{Deschampsia}}{a numeric vector}

@@ -5,11 +5,11 @@
 European beach forest data, site factors
 }
 \description{
-European beach forest data, site factors. Vegetation informaion is in data frame sveg.
+European beach forest data, site factors. Vegetation information is in data frame \code{\link{nveg}}.
 }
 \usage{data(nsit)}
 \format{
-  A data frame with 11 observations on the following 8 variables.
+  A data frame with 11 observations on the following 8 site variables.
   \describe{
     \item{\code{PH}}{a numeric vector}
     \item{\code{ALTITUDE}}{a numeric vector}
