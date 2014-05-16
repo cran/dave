@@ -1,6 +1,5 @@
 pcaser2 <-
 function(veg,plotlabels,y=1) {
-  library(labdsv)
 #  lines=TRUE
 #  par(mfrow=c(1,1),omi=c(1,0,0,0),mgp=c(1.5,0.5,0),pty="s")
   nrel<- length(veg[,1])           # no. of releves

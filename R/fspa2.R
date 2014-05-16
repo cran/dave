@@ -16,7 +16,7 @@ function(veg,method,d.rev=0.5,n.groups=3) {
 #
   order<- length(veg[,1])
   mde <- vegdist(veg,method,diag=TRUE,upper=TRUE)
-  hclust.r <-hclust(mde,method="ward")
+  hclust.r <-hclust(mde,method="ward.D")
   memb.r<- cutree(hclust.r,k = n.groups)
   den<- as.dendrogram(hclust.r)
 #  plot(den) if required here

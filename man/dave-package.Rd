@@ -1,4 +1,4 @@
-\name{dave}      % HELP FILE FOR dave PACKAGE, 24. 01. 2013
+\name{dave}      % HELP FILE FOR dave PACKAGE, 16. 05. 2014
 \alias{dave}
 \alias{dave}
 \docType{ package }
@@ -15,12 +15,13 @@ The package also includes all the data sets used in the book.
 \tabular{ll}{
 Package: \tab dave\cr
 Type: \tab Package\cr
-Version: \tab 1.3\cr
-Date: \tab 2013-01-24\cr
+Version: \tab 1.5\cr
+Date: \tab 2014-05-16\cr
 License: \tab LGPL <= 2.0 \cr
 }
 The use of all functions included is explained in "Data Analysis in Vegetation Ecology"
-(see reference below)
+(see reference below). Version 1.5 includes 2 new data frames, sspft and ssind, plant
+functional types and indicator values respectively to be used in conjunction with sveg.
 }
 \author{
 Otto Wildi, otto.wildi@wsl.ch

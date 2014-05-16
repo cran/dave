@@ -1,7 +1,8 @@
-\name{davesil}     % DESCRIPTION OF davesil(), 24. 01. 2013
+\name{davesil}     % DESCRIPTION OF davesil(), 14. 05. 2014
 \alias{davesil}
 \alias{davesil.default}
 \alias{plot.davesil}
+\alias{dsil}
 \title{
 Modified version of silhouette plotting
 }
@@ -10,6 +11,7 @@ This is a wrapper for function \code{\link{silhouette}} in the cluster package. 
 }
 \usage{
 davesil(ddist, o.hclr, o.relgr, ...)
+dsil(ddist, o.hclr, o.relgr)
 
 \method{davesil}{default}(ddist, o.hclr, o.relgr, ...)
 \method{plot}{davesil}(x,...,range=NULL)

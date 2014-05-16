@@ -11,7 +11,6 @@ function(veg,timescale,orders,y=1,adjust=FALSE) {
       veg<- t(apply(veg,1,adj))
   }
 #  par(mfrow=c(1,1),omi=c(2,0,0,0))
-  library(vegan)
 # distance matrix of releves, full mode
   mde <- vegdist(veg^y,method = "euclidean",diag=TRUE,upper=TRUE)  
   dimde <- dim(veg)[1]                          # matrix dimension

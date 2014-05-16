@@ -2,7 +2,7 @@ mtab <-
 function(veg,method="raw",y.r=0.5,y.s=0.25,k.r=3,k.s=5,ndiffs=10) {
 # -------------------------------------------------------------------------
 # method (order mode) can be "raw", "sort", "ca", "clust", "aoc", "mulva"
-# uses functions plottab() and aoconc()
+# uses functions plottab() and aoconc(), version of 27. 5. 2014
 # removing empty species vectors to avoid crashes:
   rf<- apply(sign(veg),2,sum)
   veg<- veg[,rf > 0]
@@ -115,7 +115,7 @@ function(veg,method="raw",y.r=0.5,y.s=0.25,k.r=3,k.s=5,ndiffs=10) {
 #
 #          clustering releves with k.r groups
            mde<- as.dist((1-cor(t(veg^exponent.r)))/2)
-           hclust.r <-hclust(mde,method="ward")
+           hclust.r <-hclust(mde,method="ward.D")
            xr<-cutree(hclust.r,k = k.r)
            membership.r <- as.factor(xr)
 
@@ -248,7 +248,7 @@ function(veg,method="raw",y.r=0.5,y.s=0.25,k.r=3,k.s=5,ndiffs=10) {
 #                ordering bottom
                  bottoms<- decrspeclab[i1:nspec]
                  orderbottoms<- bottoms
-                 veg4<- veg[,bottoms]
+                 veg4<- as.matrix(veg[,bottoms])
                  dif<- nspec-nupperspec
                  for (i in 1:dif) orderbottoms[i]<- sum(sign(veg4[,i]))
                  oorderbottoms<- order(-orderbottoms)

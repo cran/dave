@@ -1,5 +1,5 @@
 Mtabs.default <-
-function(veg,method,y.r,y.s,k.r,k.s,ndiffs,...) {
+function(veg,method="raw",y.r=0.5,y.s=0.25,k.r=3,k.s=5,ndiffs=10,...) {
      o.Mtabs<- mtab(veg,method,y.r,y.s,k.r,k.s,ndiffs)
      o.Mtabs$call<- match.call()
      cat("Call:\n") 

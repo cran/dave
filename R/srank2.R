@@ -1,6 +1,4 @@
 srank2<- function(veg,groups,method,y) {
-# library(labdsv)
-# library(vegan)
 	nspecies<- ncol(veg)
 	nreleves<- nrow(veg)
 	sp.names<- names(veg)

@@ -1,4 +1,4 @@
-\name{orank}         % DESCRIPTION OF FUNCTION orank, 24. 01. 2013
+\name{orank}         % DESCRIPTION OF FUNCTION orank, 25. 06. 2014
 \alias{orank}
 \alias{orank.default}
 \alias{plot.orank}
@@ -14,10 +14,10 @@ maximum variance with all others and declares this rank 1. Reduces the matrix
 the process to derive consecutive ranks until no variance is left.
 }
 \usage{
-orank(veg, use, rlimit, y, x.axis, y.axis,...)
-orank1(veg, use, rlimit, y, x.axis, y.axis)
+orank(veg, use, rlimit=5, y=1, x.axis=NULL, y.axis=NULL,...)
+orank1(veg, use, rlimit=5, y=1, x.axis=NULL, y.axis=NULL)
 
-\method{orank}{default}(veg, use, rlimit, y, x.axis, y.axis,...)
+\method{orank}{default}(veg, use, rlimit=5, y=1, x.axis=NULL, y.axis=NULL,...)
 \method{plot}{orank}(x,...)
 \method{summary}{orank}(object,...)
 }

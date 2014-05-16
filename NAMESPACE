@@ -1,6 +1,6 @@
 export(centroid,aocc,fitmarkov,orank,dircor,mxplot,Mtabs,srank,pcovar,ccost,overly,pcobiplot,speedprof,pcaser,fspa,vvelocity,SNPtm,SNPsm,outlier,davesil)    
 
-import(labdsv,vegan,tree)
+import(labdsv,vegan)
   
 # list of all functions seen by user
 

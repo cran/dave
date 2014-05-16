@@ -1,5 +1,6 @@
 orank1 <-
-function(veg,use=c("columns","rows"),rlimit=3,y=1,x.axis=NULL,y.axis=NULL) {
+function(veg,use=c("columns","rows"),rlimit=5,y=1,x.axis=NULL,y.axis=NULL) {
+# revised 25. 6. 2014 (ordination now with euclidean distance)
 # default column names if missing
   defn<- is.null(names(veg))
   if(defn == TRUE) colnames(veg)<- seq(1,length(veg[1,]),1)
@@ -9,7 +10,7 @@ function(veg,use=c("columns","rows"),rlimit=3,y=1,x.axis=NULL,y.axis=NULL) {
 #
 # erase empty species vectors
 #
-  f.s<- apply(veg,2,sum)
+  f.s<- apply(abs(veg),2,sum)
   vegr<- veg[,f.s > 0]
   if(use == "columns") ranktemp <- vegr
   if(use == "rows") ranktemp <- t(vegr)
@@ -31,7 +32,7 @@ function(veg,use=c("columns","rows"),rlimit=3,y=1,x.axis=NULL,y.axis=NULL) {
   if(xnull == TRUE) {
      if(use == "rows") ranktemp <- vegr
      if(use == "columns") ranktemp <- t(vegr)
-     db<- vegdist(ranktemp,method="bray")
+     db<- vegdist(ranktemp,method="euclidean")
      o.pco<- pco(db,k=2)
      x.axis<- o.pco$points[,1]
      y.axis<- o.pco$points[,2]

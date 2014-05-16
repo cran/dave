@@ -30,22 +30,22 @@ function(veg,y=1) {
 # procrustes analysis for all 6 methods
 #
 # euclid
-proce<- procrustes(scores(oute),pcscor)
+proce<- procrustes(pcscor,scores(oute))
 
 # manhattan
-procm<- procrustes(scores(outm),pcscor)
+procm<- procrustes(pcscor,scores(outm))
 
 # chord
-procco<- procrustes(scores(outco),pcscor)
+procco<- procrustes(pcscor,scores(outco))
 
 # canberra
-procca<- procrustes(scores(outc),pcscor)
+procca<- procrustes(pcscor,scores(outc))
 
 # bray
-procb<- procrustes(scores(outb),pcscor)
+procb<- procrustes(pcscor,scores(outb))
 
 # 1-correlation
-procc<- procrustes(scores(outcor),pcscor)
+procc<- procrustes(pcscor,scores(outcor))
 #
 # output list
 #

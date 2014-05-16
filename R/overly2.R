@@ -1,7 +1,5 @@
 overly2 <-
 function(veg,Plot.no,y,sint) { 
- library(labdsv)
- library(vegan)
 # sint: sampling interval
 # The next 2 lines set defaults if linewidths are null
 #  defwidth<- is.null(l.widths)

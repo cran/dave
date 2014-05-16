@@ -6,8 +6,6 @@ function(veg,method,y=1) {
 # species. sveg is a data frame.
 #
 # sel.spec<- sel.sp
-library(vegan)
-library(labdsv)
   vdb<- vegdist(veg^y,method)
   outc<- pco(vdb,k=6)
   ssveg<- scale(veg,center=TRUE, scale=TRUE)

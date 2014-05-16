@@ -9,7 +9,7 @@ Four kilometre grid forest data of Switzerland, 500m2 plots. Also see ws30, ws20
 }
 \usage{data(ws500)}
 \format{
-  A data frame with 726 observations 1262 variables, the species.
+  A data frame with 726 observations on 1262 variables, the species.
 }
 \details{
 See object wssit for corresponding site information
