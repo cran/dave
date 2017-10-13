@@ -44,13 +44,13 @@ An output list of class "davesil" with at least the following items:
 \references{
 Rousseeuw, P.J. (1987). Silhouettes: A graphical aid to the interpretation and validation of cluster analysis. J. Comput. Appl. Math., 20: 53-65.
 
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi
 }
-\seealso{
-Function \code{\link{silhouette}} in the cluster package.
+\details{
+See function \code{\link{silhouette}} in the cluster package.
 }
 \examples{
 # An oridinary cluster analysis

@@ -31,8 +31,7 @@ Orloci, L., Anand, M. & He, X. 1993. Markov chain: a
 realistic model for temporal coenosere? Biom. Praxim 33: 7--26.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(lveg)

@@ -53,7 +53,7 @@ An object of class "pcobiplot" with at least the following items:
 \item{allspnames }{The full list of species names}
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

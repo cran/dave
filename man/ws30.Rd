@@ -20,8 +20,7 @@ Diversity of forest plant species at the community and landscape scales in Switz
 Plant Biosystems 142: 604-613.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(ws30)

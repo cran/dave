@@ -29,8 +29,7 @@ Indicator values from vascular plants and brypphytes stem from different lists i
 Landolt, E., Baeumler, B., Erhardt, A., Hegg, O., Kloetzli, F., Laemmler, W., Nobis, M., Rudmann-Maurer, K., Schweingruber, F.H., Theurillat, J.-P., Urmi, E., Vust, M. and Wohlgemuth, T. 2010. Flora indicativa. Ecological Indicator Values and Biological Attributes of the Flora of Switzerland and the Alps. Haupt, Bern.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(ssind)

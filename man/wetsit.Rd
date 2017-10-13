@@ -5,11 +5,12 @@
 Random sample of Swiss wetland vegetation, site information.
 }
 \description{
-Random sample of Swiss wetland vegetation, site information. Site information is in \code{\link{wetveg}}.
+Random sample of Swiss wetland vegetation, site information. Vegetation information is in \code{\link{wetveg}}.
+Note: this differs from the same file in the 2nd edition as 4 observations are erased and 16 new site factors added.
 }
 \usage{data(wetsit)}
 \format{
-  A data frame with 1500 observations on the following 69 variables.
+  A data frame with 1496 observations on the following 85 variables.
   \describe{
     \item{\code{EK2_Identifikation}}{a factor with levels identifying phytosociologica identity}
     \item{\code{Flnr_ek1}}{a numeric vector, a plot number}
@@ -80,7 +81,23 @@ Random sample of Swiss wetland vegetation, site information. Site information is
     \item{\code{Ordnung_Nr}}{a numeric vector}
     \item{\code{Unterklasse_Nr}}{a logical vector}
     \item{\code{Klasse_Nr}}{a numeric vector}
-  }
+    \item{\code{slp25_d8}}{a numeric vector}
+    \item{\code{ddeg300}}{a numeric vector}
+    \item{\code{precyy}}{a numeric vector}
+    \item{\code{sfroyy}}{a numeric vector}
+    \item{\code{tminall}}{a numeric vector}
+    \item{\code{sradyy}}{a numeric vector}
+    \item{\code{swb}}{a numeric vector}
+    \item{\code{mind7}}{a numeric vector}
+    \item{\code{SOILTYPE}}{a factor with levels identifying soil type}
+    \item{\code{GRUNDIGKEI}}{a numeric vector}
+    \item{\code{SKELETT}}{a numeric vector}
+    \item{\code{WASSERSPEI}}{a numeric vector}
+    \item{\code{NAHRSTOFF}}{a numeric vector}
+    \item{\code{WASSERDURC}}{a numeric vector}
+    \item{\code{VERNASS}}{a numeric vector}
+    \item{\code{GT_ID}}{a numeric vector}
+ }
 }
 \source{
 Graf, U., Wildi, O., Feldmeyer-Christe, E. &
@@ -88,8 +105,7 @@ Kuechler, M. 2010. A phytosociological classification of Swiss mire
 vegetation. Botanica Helvetica 120: 1-13.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(wetsit)

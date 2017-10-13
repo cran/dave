@@ -20,8 +20,7 @@ Methods of Vegetation Ecology. John Wiley & Sons, New York, Chichester,
 Brisbane, Toronto.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(mveg)

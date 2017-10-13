@@ -58,8 +58,7 @@ Cambridge: Cambridge University Press.
 Venables, W. N. & Ripley, B. D. 2010. Modern applied 
 statistics with S. Fourth Edition. Springer, NY.
 
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

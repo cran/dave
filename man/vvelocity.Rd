@@ -1,4 +1,4 @@
-\name{vvelocity}         % DESCRIPTION OF FUNCTION vvelocity, 24. 01. 2013
+\name{vvelocity}         % DESCRIPTION OF FUNCTION vvelocity, 15. 09. 2017
 \alias{vvelocity}
 \alias{vvelocity.default}
 \alias{plot.vvelocity}
@@ -14,7 +14,7 @@ vvelocity(pveg, timescale, y, ...)
 vvelocity2(pveg, timescale, y=1)
 
 \method{vvelocity}{default}(pveg,timescale,y,...)
-\method{plot}{vvelocity}(x,...,tlabs=c(1),scal=1)
+\method{plot}{vvelocity}(x,tlabs,scal=1,...)
 }
 \arguments{
   \item{pveg}{
@@ -46,8 +46,11 @@ An object of class "vvelocity" with at least the following items:
 \item{timescale }{The input time scale}
 \item{y }{Transformation of species scores: x'= x exp(y)}
 }
+\details{
+See also \code{\link{pco}} for the ordinations used.
+}
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

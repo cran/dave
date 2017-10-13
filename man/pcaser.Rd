@@ -14,7 +14,7 @@ pcaser(veg, plotlabels, y, ...)
 pcaser2(veg, plotlabels, y=1)
 
 \method{pcaser}{default}(veg, plotlabels, y, ...)
-\method{plot}{pcaser}(x,...,lines=TRUE)
+\method{plot}{pcaser}(x,lines=TRUE,arrows=TRUE,...)
 }
 \arguments{
   \item{veg}{
@@ -36,6 +36,9 @@ An object of class "pcaser".
   \item{lines}{
 A logical variable. When TRUE then points of the same time series are connected.
 }
+  \item{arrows}{
+A logical variable. When TRUE then the first and the last points of the same time series are connected.
+}
 
 
 }
@@ -51,7 +54,7 @@ An object of class "pcaser" with at least the following items:
 \item{Eigv}{Eigenvalues (percentage)}
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

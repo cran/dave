@@ -34,8 +34,7 @@ analyses in annually laminated sediments from Soppensee, central
 Switzerland. Vegetation History and Archaeobotany 8: 165-184.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(pveg)

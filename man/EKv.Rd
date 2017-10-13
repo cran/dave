@@ -25,8 +25,7 @@ Grundlage. Mitteilungen der Eidgenoessischen Forschungsanstalt fuer
 Wald, Schnee und Landschaft (WSL) 73, Vol. 2.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(EKv)

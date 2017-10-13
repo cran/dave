@@ -50,7 +50,7 @@ An object of class "mxplot" with at least the following items:
 \item{ levels }{The ng group names (a vector of character variables)}
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

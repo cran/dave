@@ -58,7 +58,7 @@ Orloci, L. & Kenkel, N. 1985. Introduction to
 Data Analysis. International Co-operative Publ. House, Burtonsville,
 MD.
 
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi
@@ -70,12 +70,12 @@ The analysis of lattice structure, described in some of the references, is not i
 # First, groups of releves are formed
 require(vegan)
 dr<- vegdist(nveg^0.5,method="bray")      # dr is distance matrix of rows
-o.clr<- hclust(dr,method="ward")          # this is clustering
+o.clr<- hclust(dr,method="ward.D2")          # this is clustering
 o.rgr<- cutree(o.clr,k=3)                 # 3 row groups formed
 # Now I group the columns of nveg (the species)
 # the same way as for rows
 ds<- vegdist(t(nveg^0.25),method="euclid")
-o.cls<- hclust(ds,method="ward")
+o.cls<- hclust(ds,method="ward.D2")
 o.sgr<- cutree(o.cls,k=4)                  # 4 column groups formed
 
 o.aocc<- aocc(nveg,o.rgr,o.sgr)

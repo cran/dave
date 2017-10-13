@@ -1,4 +1,4 @@
-\name{overly}         % DESCRIPTION OF FUNCTION overly, 24. 01. 2013
+\name{overly}         % DESCRIPTION OF FUNCTION overly, 14. 09. 2017
 \alias{overly}
 \alias{overly.default}
 \alias{plot.overly}
@@ -7,7 +7,7 @@
 Overly of multivariate time series
 }
 \description{
-This function attempts to superimpose (overly) multivariate time series that typically stem from different locations to form one single series. Series are combined pairwise following the arrangement in a minimum spanning tree, \code{\link{spantree}}. The result is a time series which may be longer than the contributing series, but shorter than their length total.
+This function attempts to superimpose (overlay) multivariate time series that typically stem from different locations to form one single series. Series are combined pairwise following the arrangement in a minimum spanning tree, \code{\link{spantree}}. The result is a time series which may be longer than the contributing series, but shorter than their length total.
 }
 \usage{
 overly(veg, Plot.no, y, sint, ...)
@@ -45,6 +45,7 @@ An object of class "overly"
 }
 \details{
 In plant ecology this procedure is also known as space-for-time substitution.
+See also \code{\link{pco}},\code{\link{spantree}}.
 }
 \value{
 An object of class "overly" with at least the following items:
@@ -63,9 +64,9 @@ An object of class "overly" with at least the following items:
 \item{vegtypes}{The species names involved}
 }
 \references{
-Wildi, O. & Schuetz, M. 2000. Reconstruction of a long-term recovery process from pasture to forest. Community Ecology 1: 25--32.
-
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. and Schuetz, M. 2000. Reconstruction of a long-term recovery process from pasture to forest. 
+Community Ecology 1: 25--32. 
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

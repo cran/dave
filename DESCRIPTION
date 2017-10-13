@@ -1,15 +1,16 @@
 Package: dave
 Type: Package
 Title: Functions for "Data Analysis in Vegetation Ecology"
-Version: 1.5
-Date: 2014-05-16
+Version: 2.0
+Date: 2017-10-10
 Author: Otto Wildi
 Maintainer: Otto Wildi <otto.wildi@wsl.ch>
-Description: A collection of functions accompanying the book "Data Analysis in Vegetation Ecology", Second edition. 2013, Wiley-Blackwell, Chichester
+Description: A collection of functions accompanying the book "Data Analysis in Vegetation Ecology". 3rd ed. CABI, Oxfordshire, Boston.
 License: LGPL (>= 2.0)
 LazyData: true
-Depends: R (>= 2.10), labdsv, vegan
-Packaged: 2014-07-21 10:22:45 UTC; ottowildiair
+Depends: R (>= 3.1.0), cluster, labdsv, vegan, nnet, graphics, stats,
+        grDevices, tree
 NeedsCompilation: no
+Packaged: 2017-10-12 18:00:26 UTC; ottowildiair
 Repository: CRAN
-Date/Publication: 2014-07-21 13:29:45
+Date/Publication: 2017-10-13 21:06:14 UTC

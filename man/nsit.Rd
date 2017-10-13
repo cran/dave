@@ -29,8 +29,7 @@ Wildi, O. & Orloci, L. 1996. Numerical Exploration
 of Community Patterns. 2nd ed. SPB Academic Publishing, The Hague.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(nsit)

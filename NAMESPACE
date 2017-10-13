@@ -1,8 +1,15 @@
 export(centroid,aocc,fitmarkov,orank,dircor,mxplot,Mtabs,srank,pcovar,ccost,overly,pcobiplot,speedprof,pcaser,fspa,vvelocity,SNPtm,SNPsm,outlier,davesil)    
 
-import(labdsv,vegan)
+import(labdsv, vegan, nnet, cluster, tree)
+importFrom("grDevices", "gray", "heat.colors", "rainbow", "rgb")
+importFrom("graphics", "abline", "arrows", "barplot", "hist", "image",
+             "legend", "lines", "par", "plot", "points", "text", "title")
+importFrom("stats", "aggregate", "anova", "aov", "as.dendrogram",
+             "as.dist", "cor", "cutree", "dist", "hclust", "prcomp", "dnorm", "sd")
+
+
   
-# list of all functions seen by user
+# list of all functions seen by user, 10.10.17
 
 
 S3method(print,centroid)                                 # method, class
@@ -63,6 +70,7 @@ S3method(plot,SNPsm)
 
 S3method(outlier,default)
 S3method(plot,outlier)
+S3method(print,outlier)
 
 S3method(davesil,default)
 S3method(plot,davesil)

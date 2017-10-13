@@ -1,4 +1,4 @@
-\name{pcovar}         % DESCRIPTION OF FUNCTION pcovar, 24. 01. 2013
+\name{pcovar}         % DESCRIPTION OF FUNCTION pcovar, 24. 01. 2013, 10. 09. 2017
 \alias{pcovar}
 \alias{pcovar.default}
 \alias{plot.pcovar}
@@ -53,14 +53,16 @@ An object of class "pcovar" with at least the following items:
 \item{corpca}{PCA coord., correlation as dist. used, adjusted by procrustes analysis}
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi
 }
 \note{
 This function serves primarily instructional purposes
+}
+\details{
+\code{\link{pco}}, \code{\link{vegdist}}, \code{\link{procrustes}} for the main functions used
 }
 \examples{
 o.pcovar<- pcovar(sveg,y=1)

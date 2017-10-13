@@ -27,8 +27,7 @@ Wildi, O. & Schuetz, M. 2000. Reconstruction of a
 long-term recovery process from pasture to forest. Community Ecology 1: 25-32.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(sn6veg)

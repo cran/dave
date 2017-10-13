@@ -38,8 +38,7 @@ Wildi, O. 1977. Beschreibung exzentrischer Hochmoore
 mit Hilfe quantitativer Methoden. Veroeff. Geobot. Inst. ETH, Stiftung Ruebel 60: 128S.
 }
 \references{
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \examples{
 summary(ssit)

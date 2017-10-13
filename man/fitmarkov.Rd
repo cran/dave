@@ -51,7 +51,7 @@ Orloci, L., Anand, M. & He, X. 1993. Markov chain: a realistic model for tempora
 
 Lippe, E., De Smitt, J.T. & Glenn-Lewin, D.C. 1985. Markov models and succession: a test from a heathland in the Netherlands. Journal of Ecology 73: 775-791.
 
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

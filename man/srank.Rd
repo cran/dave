@@ -49,7 +49,7 @@ An object of class "srank" with at least the following items:
 \references{
 Jancey, R.C. 1979. Species ordering on a variance criterion. Vegetatio 39: 59--63.
 
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

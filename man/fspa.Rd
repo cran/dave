@@ -57,7 +57,7 @@ An output list of class "fspa" with at least the following intems:
 \references{
 Bradfield, G.E. & Kenkel, N.C. 1987. Nonlinear ordination using flexible shortest path adjustment of ecological distances. Ecology 68: 750--753.
 
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell, Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi

@@ -52,18 +52,15 @@ An output list of class "dircor" with at least the following intems:
 Legendre, P. & Fortin, M.-J. 1989. Spatial analysis and ecological modeling. 
 Vegetatio 80: 107--138.
 
-Wildi, O. 2013. Data Analysis in Vegetation Ecology. 2nd ed. Wiley-Blackwell,
-Chichester.
+Wildi, O. 2017. Data Analysis in Vegetation Ecology. 3rd ed. CABI, Oxfordshire, Boston.
 }
 \author{
 Otto Wildi
 }
 \note{
 Computation time is fairly long because function mantel() evaluates the confidence
-limits for each directional step between 0 and 180 degrees.
-}
-\seealso{
-The function mantel() in the vegan package.
+limits for each directional step between 0 and 180 degrees. See also \code{\link{mantel}}
+in the vegan package.
 }
 \examples{
 # vegetation data is taken from sveg

@@ -1,5 +1,4 @@
-print.centroid <-
-function(x,...) {
+print.centroid<- function(x,...) {
     cnames<- strtrim(rownames(x$prob.table),25)
     rnames<- strtrim(colnames(x$prob.table),25)
     cnames<- paste(cnames,cnames[26:27]<- "  ")
@@ -11,4 +10,4 @@ function(x,...) {
     rownames(mm) <- rnames
     colnames(mm) <- cnames
     print(mm,quote = FALSE)
-  }
+}
